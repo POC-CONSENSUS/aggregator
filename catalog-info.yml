@@ -2,6 +2,10 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: aggregator
+  description: This aggregator is a proxy middleware to aggregate API call to the backend.
+  tags:
+    - docker
+    - nginx
   annotations:
     github.com/project-slug: POC-CONSENSUS/aggregator
 spec:

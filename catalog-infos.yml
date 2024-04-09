@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: aggregator
+  annotations:
+    github.com/project-slug: POC-CONSENSUS/aggregator
+spec:
+  type: service
+  lifecycle: experimental
+  owner: group:poc-consensus/awesometeam
